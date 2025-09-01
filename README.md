@@ -36,6 +36,6 @@ This repository implements a pipeline that transforms single-cell RNA sequencing
 Clone the repo and install dependencies:
 
 ```bash
-git clone https://github.com/yourusername/tumor-classification-cnn.git
+git clone https://github.com/alyatimi/Image-Based-Deep-Learning-for-Brain-Tumour-Transcriptomics.git
 cd tumor-classification-cnn
 pip install -r requirements.txt
