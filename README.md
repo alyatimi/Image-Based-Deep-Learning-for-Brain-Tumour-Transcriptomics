@@ -26,7 +26,7 @@ This repository implements a pipeline that transforms single-cell RNA sequencing
 - **GSE85217**  
   28 annotated brain tumor subtypes; preprocessed from `.h5ad`.
 
-- **Smartseq2 GBM**  
+- **GSM3828672 Smartseq2 GBM**  
   GBM subtype expression profiles labeled via `tumour name`.
 
 ---
