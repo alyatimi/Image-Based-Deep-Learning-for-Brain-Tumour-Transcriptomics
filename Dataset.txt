@@ -1,3 +1,0 @@
-﻿Data downladed from : GEO:
-GSE85217_subtype.
-GSM3828672 Smart-seq2
