@@ -23,7 +23,7 @@ def compute_manifold_embeddings(adata):
     sc.tl.pca(adata, n_comps=50, svd_solver='arpack')
     sc.pp.neighbors(adata, n_neighbors=15, use_rep='X_pca')
     sc.tl.umap(adata, n_components=2)
-    sc.tl.tsne(adata, n_pcs=50)  # Removed n_jobs=4 to avoid warning
+    sc.tl.tsne(adata, n_pcs=50)  
     return adata
 
 
