@@ -1,7 +1,21 @@
 # 🧠 Saliency-Guided CNN for Brain Tumor Classification from Transcriptomic Images
 
-This repository implements a pipeline that transforms single-cell RNA sequencing (scRNA-seq) data into RGB images using dimensionality reduction and spectral mapping. A ResNet-18 CNN is trained to classify brain tumor subtypes, and saliency maps are used for model interpretability.
+## 🧠 Model Architecture and Training
 
+### 🔧 Setup
+- Framework: PyTorch
+- Architectures:
+  - [x] ResNet-18 (pretrained)
+  - [x] EfficientNet-B0 (pretrained)
+- Input Image Size: `128x128`
+- Optimizer: `Adam`
+- Loss Function: `CrossEntropyLoss`
+- Batch Size: `32`
+- Epochs: `5` (adjustable)
+- Cross-Validation: `5-fold Stratified`
+
+### 📁 Dataset Format
+Structured as a directory of class folders:
 ---
 
 ## 📂 Project Structure
