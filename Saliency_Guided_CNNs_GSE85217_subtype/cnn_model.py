@@ -47,11 +47,6 @@ def build_model(model_type, num_classes):
     return model.to(device)
 
 
-"""def build_model(num_classes):
-    model = models.resnet18(pretrained=True)
-    model.fc = nn.Linear(model.fc.in_features, num_classes)
-    return model.to(device)"""
-
 
 def train_one_epoch(model, dataloader, criterion, optimizer):
     model.train()
@@ -146,7 +141,6 @@ def main():
         all_conf_matrices = []
 
         for fold, (train_idx, val_idx) in enumerate(skf.split(np.zeros(len(targets)), targets)):
-            #print(f"\nFold {fold + 1}/{K_FOLDS}")
             print(f"[{model_type.upper()}] Starting Fold {fold + 1}/{K_FOLDS}")
             train_subset = Subset(dataset, train_idx)
             val_subset = Subset(dataset, val_idx)
