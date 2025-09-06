@@ -42,7 +42,7 @@ def map_embeddings_to_rgb(adata, image_size=128):
     pca_norm = normalize_coords(pca)
     umap_norm = normalize_coords(umap)
 
-    rgb_coords = np.stack([tsne_norm, pca_norm, umap_norm], axis=-1)  # (N, 2, 3)
+    rgb_coords = np.stack([tsne_norm, pca_norm, umap_norm], axis=-1) 
     pixel_coords = (tsne_norm * (image_size - 1)).astype(int)
     return pixel_coords, rgb_coords
 
@@ -58,7 +58,7 @@ def generate_rgb_images(pixel_coords, rgb_coords, image_size=128, point_size=3):
             for dy in range(-point_size, point_size + 1):
                 xi = np.clip(x + dx, 0, image_size - 1)
                 yi = np.clip(y + dy, 0, image_size - 1)
-                images[i, yi, xi] = rgb_coords[i, 0]  # RGB triplet
+                images[i, yi, xi] = rgb_coords[i, 0]  
     return images
 
 
