@@ -48,8 +48,9 @@ This section provides visual insights into the interpretability of our Saliency-
 We generated class-wise saliency maps for each medulloblastoma subtype (WNT, SHH, Group3, Group4) using gradient-based visualisation techniques. These heatmaps highlight the regions (pixels) of the image most influential in the model’s prediction.
 
 - **Saliency Maps per Subtype:**
+- 
 ![GSE85217 Saliency Maps](Figure/Figure_Saliency_GSM3828672.png).
-![GSE85217 Saliency Maps]([Figure/Figure_Saliency_GSM3828672.png])
+![GSE85217 Saliency Maps]
 Each subplot corresponds to a specific medulloblastoma subtype, with brighter areas indicating stronger model attention on gene-derived image regions.
 
 ---
