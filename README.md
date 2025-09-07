@@ -1,6 +1,6 @@
 # 🧠 Saliency-Guided CNN for Brain Tumor Classification from Transcriptomic Images
 
-## 🧠 Model Architecture and Training
+##  Model Architecture and Training
 
 ### 🔧 Setup
 - Framework: PyTorch
