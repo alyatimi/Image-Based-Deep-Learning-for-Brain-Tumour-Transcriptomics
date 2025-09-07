@@ -50,7 +50,7 @@ We generated class-wise saliency maps for each medulloblastoma subtype (WNT, SHH
 - **Saliency Maps per Subtype:**
 
 ![GSE85217 Saliency Maps]([http://url/to/img.png](https://github.com/alyatimi/Image-Based-Deep-Learning-for-Brain-Tumour-Transcriptomics/blob/main/Figure/Figure_Saliency_GSM3828672.png
-))
+)
 Each subplot corresponds to a specific medulloblastoma subtype, with brighter areas indicating stronger model attention on gene-derived image regions.
 
 ---
