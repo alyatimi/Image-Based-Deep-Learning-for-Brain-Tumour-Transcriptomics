@@ -47,6 +47,11 @@ Structured as a directory of class folders:
 
 ## ⚙️ Installation
 
+You can install all dependencies using:
+```bash
+pip install -r requirements.txt
+
+
 Clone the repo and install dependencies:
 
 ```bash
