@@ -49,7 +49,7 @@ We generated class-wise saliency maps for each medulloblastoma subtype (WNT, SHH
 
 - **GSE85217 Saliency Maps per Subtype:**
 
-![GSE85217 Saliency Maps](Figure/Figure_Saliency_GSM3828672.png).
+![GSE85217 Saliency Maps](Figure/Figure_generate_saliencyGSE85217.png).
 Each subplot corresponds to a specific medulloblastoma subtype, with brighter areas indicating stronger model attention on gene-derived image regions.
 
 ---
@@ -58,17 +58,17 @@ Each subplot corresponds to a specific medulloblastoma subtype, with brighter ar
 
 Similarly, saliency maps were generated to interpret the CNN model's predictions on heterogeneous single-cell transcriptomic data.
 
-- ** GSM3828672 RGB vs Saliency Comparison:**
+- **GSM3828672 RGB vs Saliency Comparison:**
 
-![RGB vs Saliency - GSM3828672](Figure/RGB imag_pixel vsSaliency_GSM3828672.png).
+![RGB vs Saliency - GSM3828672](Figure/RGBimag_pixelvsSaliency_GSM3828672.png).
 
 This figure shows an input RGB image (left) and its corresponding saliency map (right), highlighting important regions.
 
-- **Per-Patient Saliency Maps:**
+- **GSM3828672 Cell type Saliency Maps:**
 
-![Saliency GSM3828672](Figure_Saliency_GSM3828672.png)
+![Saliency GSM3828672](Figure/Figure_Saliency_GSM3828672.png)
 
-Each heatmap corresponds to a distinct patient/class in the GSM3828672 dataset.
+Each heatmap corresponds to a distinct cell type/class in the GSM3828672 dataset.
 
 ---
 
