@@ -50,7 +50,7 @@ Structured as a directory of class folders:
 You can install all dependencies using:
 ```bash
 pip install -r requirements.txt
-
+```
 
 Clone the repo and install dependencies:
 
@@ -58,3 +58,6 @@ Clone the repo and install dependencies:
 git clone https://github.com/alyatimi/Image-Based-Deep-Learning-for-Brain-Tumour-Transcriptomics.git
 cd tumor-classification-cnn
 pip install -r requirements.txt
+```
+
+## Citation 
