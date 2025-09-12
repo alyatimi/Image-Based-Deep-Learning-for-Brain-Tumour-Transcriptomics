@@ -6,7 +6,6 @@ scipy>=1.7.0
 
 # Dimensionality Reduction
 umap-learn>=0.5.1
-matplotlib>=3.4.0
 
 # Deep Learning (PyTorch)
 torch>=1.12.0
