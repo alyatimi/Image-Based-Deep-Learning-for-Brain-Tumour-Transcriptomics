@@ -12,7 +12,7 @@
 - Loss Function: `CrossEntropyLoss`
 - Batch Size: `32`
 - Epochs: `5` (adjustable)
-- Cross-Validation: `5-fold Stratified`
+- Cross-Validation: `5-fold`
 
 
 ## 🧬 Datasets
