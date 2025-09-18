@@ -27,7 +27,7 @@ Pillow>=8.0.0
 # Jupyter Notebook
 jupyterlab>=3.0.0
 
-# PyDeepInsight (for image transformation)
+# PyDeepInsight
 pyDeepInsight @ git+https://github.com/alok-ai-lab/pyDeepInsight.git
 
 # Other utilities
