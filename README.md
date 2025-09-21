@@ -36,7 +36,6 @@ Clone the repo and install dependencies:
 
 ```bash
 git clone https://github.com/alyatimi/Image-Based-Deep-Learning-for-Brain-Tumour-Transcriptomics.git
-cd tumor-classification-cnn
 pip install -r requirements.txt
 ```
 ## Saliency-Guided CNNs Visualisation
