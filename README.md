@@ -95,7 +95,7 @@ Representative saliency maps from the four **medulloblastoma subtypes** (Group3,
 
 These genes align with known markers, highlighting the model’s biological relevance.
 
-![Subtype-Specific Gene Saliency](Figure/Saliencymaps_high-impactgenes_tumorsubtypes_GSE85217.png)
+![Subtype-Specific Gene Saliency](Figure/Figure/Saliencymaps_high-impactgenes_tumor_subtypes_GSE85217.png)
 
 ---
 
