@@ -61,7 +61,7 @@ Similarly, saliency maps were generated to interpret the CNN model's predictions
 
 ![RGB vs Saliency - GSM3828672](Figure/RGBimag_pixelvsSaliency_GSM3828672.png).
 
-This figure shows an input RGB image (left) and its corresponding saliency map (right), highlighting important regions.
+This figure displays an input RGB image (left) and its corresponding saliency map (right), highlighting the most important regions.
 
 - **GSM3828672 Cell type Saliency Maps:**
 
@@ -70,6 +70,36 @@ This figure shows an input RGB image (left) and its corresponding saliency map (
 Each heatmap corresponds to a distinct cell type/class in the GSM3828672 dataset.
 
 ---
+## 🔬 Saliency-Based Gene Attribution
+
+We used saliency maps to visualise and interpret gene-level contributions to tumor classification made by our CNN model.
+
+###  Tumor-wise Gene Contribution (GSE138794)
+
+Each tumor sample was analysed using a ResNet-18 model, and saliency maps were generated to identify the most influential genes.  
+The **top 3 genes** (saliency ≥ 0.2) per tumor are annotated on each image.  
+Circle radius and color intensity correspond to saliency magnitude.
+
+![Tumor-wise Gene Contributions](annotated_saliency_GSM3828672/Figure_6.png)
+
+---
+
+### 🧬 Subtype-Specific Gene Highlights (GSE85217)
+
+Representative saliency maps from the four **medulloblastoma subtypes** (Group3, Group4, SHH, WNT) show subtype-enriched genes:
+
+- **Group3**: `CXCR4` (0.41)  
+- **Group4**: `TOP2A`, `LEF1`  
+- **SHH**: `CDK6`, `FN1`  
+- **WNT**: `WNT5A` (0.20)
+
+These genes align with known markers, highlighting the model’s biological relevance.
+
+![Subtype-Specific Gene Saliency](annotated_saliency_GSM3828672/Saliency_maps_highlighting_high-impact_genes_across_each_tumor_subtypes_(Group3,Group4,SHH,WNT)GSE85217.png)
+
+---
+
+The saliency-based visualisations provide interpretable insights into which genes are driving model decisions, supporting both validation and discovery of tumor-specific markers.
 
 ### Purpose
 
