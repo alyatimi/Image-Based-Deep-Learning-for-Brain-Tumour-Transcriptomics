@@ -80,7 +80,7 @@ Each tumor sample was analysed using a ResNet-18 model, and saliency maps were g
 The **top 3 genes** (saliency ≥ 0.2) per tumor are annotated on each image.  
 Circle radius and color intensity correspond to saliency magnitude.
 
-![Tumor-wise Gene Contributions](annotated_saliency_GSM3828672/Figure_6.png)
+![Tumor-wise Gene Contributions](Figure/Figure_6.png)
 
 ---
 
@@ -95,7 +95,7 @@ Representative saliency maps from the four **medulloblastoma subtypes** (Group3,
 
 These genes align with known markers, highlighting the model’s biological relevance.
 
-![Subtype-Specific Gene Saliency](annotated_saliency_GSM3828672/Saliency_maps_highlighting_high-impact_genes_across_each_tumor_subtypes_(Group3,Group4,SHH,WNT)GSE85217.png)
+![Subtype-Specific Gene Saliency](Figure/Saliencymaps_high-impactgenes_tumorsubtypes_GSE85217.png)
 
 ---
 
