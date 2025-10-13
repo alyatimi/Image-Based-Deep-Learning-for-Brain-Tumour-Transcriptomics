@@ -109,3 +109,12 @@ These visualisations are crucial for:
 
 
 ## CITATION 
+
+Citation: Alyatimi , A.; Chung, V.;
+Iqbal, M.A.; Anaissi, A. Image-Based
+Deep Learning for Brain Tumour
+Transcriptomics: A Benchmark of
+DeepInsight, Fotomics, and
+Saliency-Guided CNNs. Mach. Learn.
+Knowl. Extr. 2025, 1, 0.
+https://doi.org/
