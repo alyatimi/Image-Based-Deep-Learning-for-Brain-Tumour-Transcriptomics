@@ -110,6 +110,6 @@ These visualisations are crucial for:
 
 ## CITATION 
 
-## APA Style
+- **APA Style**
 
 Alyatimi, A., Chung, V., Iqbal, M. A., & Anaissi, A. (2025). Image-Based Deep Learning for Brain Tumour Transcriptomics: A Benchmark of DeepInsight, Fotomics, and Saliency-Guided CNNs. Machine Learning and Knowledge Extraction, 7(4), 119. https://doi.org/10.3390/make7040119
